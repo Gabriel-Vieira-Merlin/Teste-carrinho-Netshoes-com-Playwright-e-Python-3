@@ -42,7 +42,7 @@ def teste_add_carrinho():
 #E clicar 4 vezes para adicionar mais 4 itens.
 #Então uma mensagem dizendo que o limite de itens é 4 deve aparecer.
 
-def teste_add_carrinho():
+def teste_limite_carrinho():
     with sync_playwright() as p:
         #Criando o navegador
         navegador = p.chromium.launch()
